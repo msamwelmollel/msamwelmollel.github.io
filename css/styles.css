@@ -173,5 +173,13 @@ main > .small {
 }
 
 
+h2 {
+	font-family: 'Dancing Script', cursive; /* Example font */
+	font-size: 2em; /* Adjust size as needed */
+	color: #0056b3; /* Choose a color that fits your theme */
+}
+
+
+
 
 
