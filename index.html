@@ -14,13 +14,13 @@
 	<link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/themes/white-grey.css">
+	<link rel="stylesheet" href="css/themes/white-grey.css">
 	<link rel="stylesheet" href="css/particles.css">
 
 </head>
 <body>
-<!--<div id="particles-js"></div>-->
-<!--<div class="showing-particles">-->
+	<!--<div id="particles-js"></div>-->
+	<!--<div class="showing-particles">-->
 	<main>
 
 
@@ -116,30 +116,44 @@
 
 		</div>
 
-			<div class="tagline"> deep learner | born reseacher | code ninja |  well-rounded </div>
-			<!--		<div class="small">"shhhh! please keep it a secret that i am a code ninja"</div>-->
-			<div class="small">“First, solve the problem. Then, write the code.” – John Johnson</div>
-			<!-- 	        <div class="small">“I'm smart enough to know that I'm dumb.” – Richard P. Feynman </div> -->
+		<div class="tagline"> deep learner | born reseacher | code ninja |  well-rounded </div>
+		<!--		<div class="small">"shhhh! please keep it a secret that i am a code ninja"</div>-->
+		<div class="small">“First, solve the problem. Then, write the code.” – John Johnson</div>
+		<!-- 	        <div class="small">“I'm smart enough to know that I'm dumb.” – Richard P. Feynman </div> -->
 
-			<div class="icons-social">
-				<a target="_blank" href="https://github.com/msamwelmollel"><i class="fab fa-github"></i></a>
-				<!--			<a target="_blank" href="https://www.hackerrank.com/hekima?hr_r=1"><i class="fab fa-hackerrank"></i></a>   -->
-				<!--		<a target="_blank" href="https://drive.google.com/file/d/1utxYHHnVxq8DuebL6JWQHt-Nw28ZqZss/view?usp=drive_link">
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/msamwelmollel"><i class="fab fa-github"></i></a>
+			<!--			<a target="_blank" href="https://www.hackerrank.com/hekima?hr_r=1"><i class="fab fa-hackerrank"></i></a>   -->
+			<!--		<a target="_blank" href="https://drive.google.com/file/d/1utxYHHnVxq8DuebL6JWQHt-Nw28ZqZss/view?usp=drive_link">
 				<i class="fas fa-file"></i>
 			</a>  -->
-				<a target="_blank" href="https://scholar.google.com/citations?user=hXnkc_IAAAAJ&hl=en"><i class="fab fa-google"></i></a>
+			<a target="_blank" href="https://scholar.google.com/citations?user=hXnkc_IAAAAJ&hl=en"><i class="fab fa-google"></i></a>
 
 
-				<a target="_blank" href="https://www.linkedin.com/in/michael-s-mollel-phd-9b522634/"><i class="fab fa-linkedin"></i></a>
-				<a target="_blank" href="https://www.kaggle.com/mikemollel"><i class="fab fa-kaggle"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/michael-s-mollel-phd-9b522634/"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="https://www.kaggle.com/mikemollel"><i class="fab fa-kaggle"></i></a>
 
 
-				<a target="_blank" href="https://hub.docker.com/u/msamwelmollel/"><i class="fab fa-docker"></i></a>
-				<a target="_blank" href="https://twitter.com/msamwelmollel"><i class="fab fa-twitter"></i></a>
+			<a target="_blank" href="https://hub.docker.com/u/msamwelmollel/"><i class="fab fa-docker"></i></a>
+			<a target="_blank" href="https://twitter.com/msamwelmollel"><i class="fab fa-twitter"></i></a>
 
-			</div>
+		</div>
 
 	</main></div>
 
 </body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const projectTitles = document.querySelectorAll('.project-title');
+
+        projectTitles.forEach(title => {
+            title.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    });
+</script>
+
 </html>
