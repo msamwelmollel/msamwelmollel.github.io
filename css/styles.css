@@ -119,6 +119,16 @@ main > .small {
 	}
 
 
+#education ul {
+	list-style-type: disc; /* or another style you prefer */
+	padding-left: 20px; /* Adjust padding as needed */
+	text-align: justify;
+}
+
+#education li {
+	margin-bottom: 10px; /* Space between items */
+}
+
 
 
 
