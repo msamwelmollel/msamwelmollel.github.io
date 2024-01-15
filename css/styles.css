@@ -139,6 +139,28 @@ main > .small {
 	margin-bottom: 10px; /* Space between items */
 }
 
+#publications ul {
+	padding-left: 20px;
+}
+
+#publications li {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+	#publications li a {
+		color: #007bff;
+		text-decoration: none;
+	}
+
+		#publications li a:hover {
+			text-decoration: underline;
+		}
+
+	#publications li em {
+		font-style: italic;
+	}
+
 
 #projects {
 	/* Your desired styling for the project section */
