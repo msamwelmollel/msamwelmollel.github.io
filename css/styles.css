@@ -140,6 +140,21 @@ main > .small {
 }
 
 
+#projects {
+	/* Your desired styling for the project section */
+}
+
+	#projects .project {
+		margin-bottom: 30px; /* Space between projects */
+	}
+
+	#projects h3, #projects h4 {
+		/* Styling for headings */
+	}
+
+	#projects ul {
+		/* Styling for lists */
+	}
 
 
 
