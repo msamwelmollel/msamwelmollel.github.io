@@ -156,5 +156,10 @@ main > .small {
 		/* Styling for lists */
 	}
 
+.project-title {
+	cursor: pointer;
+	/* Other styling as needed */
+}
+
 
 
