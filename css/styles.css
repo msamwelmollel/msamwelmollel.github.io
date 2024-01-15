@@ -130,5 +130,16 @@ main > .small {
 }
 
 
+.styled-list ul {
+	list-style-type: disc; /* or any style you prefer */
+	padding-left: 20px; /* Adjust padding as needed */
+	text-align: justify;
+}
+
+.styled-list li {
+	margin-bottom: 10px; /* Space between items */
+}
+
+
 
 
