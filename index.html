@@ -150,9 +150,14 @@
         const projectTitles = document.querySelectorAll('.project-title');
 
         projectTitles.forEach(title => {
-            title.addEventListener('click', function() {
+            title.addEventListener('click', function () {
                 const content = this.nextElementSibling;
-                content.style.display = content.style.display === 'none' ? 'block' : 'none';
+                const isOpen = content.style.display !== 'none';
+                content.style.display = isOpen ? 'none' : 'block';
+
+                // Toggle the styling of the title to indicate active/inactive state
+                this.style.color = isOpen ? '#007bff' : '#dc3545'; // Change color
+                this.style.fontWeight = isOpen ? 'normal' : 'bold'; // Bold when active
             });
         });
     });
