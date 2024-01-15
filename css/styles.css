@@ -156,10 +156,22 @@ main > .small {
 		/* Styling for lists */
 	}
 
+
 .project-title {
 	cursor: pointer;
-	/* Other styling as needed */
+	color: #007bff; /* A distinct color */
+	text-decoration: underline; /* Underline makes it appear as a link */
+	padding: 5px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	/* Optional: Add a hover effect */
+	&:hover
+
+{
+	background-color: #f8f9fa; /* Light background on hover */
 }
+}
+
 
 
 
