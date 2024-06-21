@@ -139,6 +139,20 @@ main > .small {
 	margin-bottom: 10px; /* Space between items */
 }
 
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-details {
+    text-align: left;
+}
+
 #publications ul {
 	padding-left: 20px;
 }
